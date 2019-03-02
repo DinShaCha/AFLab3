@@ -21,12 +21,12 @@ export default class Users extends Component{
         const {users} = this.props;
         return <div>
             <table>
-                <thead>
+               // <thead>
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
                 </tr>
-                </thead>
+               // </thead>
                 <tbody>
                 {
                     users.map(user => {
